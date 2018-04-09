@@ -1,4 +1,5 @@
 - This is a character device driver that implements a ramdisk in kernel memory
 - This is easily scalable to n device nodes during the time of loading the module. 
 - Semaphores have been used to provide appropriate synchronistaion when accessing the ramdisk.
-- Refer to the pdf & readme files for problem definition and solution details. 
+- Refer to the pdf & readme files for problem definition and solution details.
+- IOCTL features have been implemented to help a userspace application in clearing the ramdisk 
